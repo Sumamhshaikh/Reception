@@ -1,0 +1,106 @@
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=200,  initial-scale=1.0">
+   
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <script src="https://kit.fontawesome.com/11acc5a5c1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	<link href="reception.css" rel="stylesheet">
+	<title>Invitation Of Reception</title>
+
+	</head>
+<body>
+
+	<!-- git remote add origin https://github.com/kaifmunshi/ring_ceremony.git
+	git branch -M main
+	git push -u origin main -->
+
+
+
+	<div class="container">
+		<div class="banner">
+			<div class="nav">
+				<b >Reception Followed By Dinner</b>
+				<div class="menu">
+					<a href="#">Home</a>
+					<a href="#venue">Venue</a>
+				</div>
+			</div>
+			<div class='quote'>				
+				<p>
+					A new beginning, A New Life..<br>
+					We Are Getting Married...<br>
+					You Are Invited To Join Us..<br>
+				On Our Blissful Union And Make Our Day!			
+				</p>
+			</div>
+			<div class="text">
+				<h1>Farhan <span class="and">&</span> Fauzia</h1>
+				<span class="date">On 17 December[Saturday], 2022<br> Om Kar Marraige Garden<br> 5:00 PM Onwards <br>  </span>
+				
+				<p style="text-align:center; color: #f15; " id="demo"></p>
+				
+				<br><br><audio  autoplay loop src="song.mp3">
+		
+					<source src="song.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				  </audio>
+			
+			</div>
+		</div>
+		<div class="section">
+			
+			<div class="venue" id="venue">
+				<h2><a name="venue">Venue</a></h2>
+				<img src="hotel.jpg">
+				<p><b class="hotel">Om Kar Marrige Garden,</b><br>C-21 Shree Bhagvan Marg<br> Opposite Sanjini Hospital ,<br>New Sanger Rd,<br>jaipur Rajasthan 302319
+				</p>
+			
+		</div>
+	</div>
+
+
+	<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("dec 17, 2022 17:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "engaged";
+  }
+}, 1000);
+</script>
+
+	
+
+</body>
+</html>
